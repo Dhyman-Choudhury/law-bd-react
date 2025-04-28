@@ -15,10 +15,10 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><NavLink className={({ isActive }) => isActive ? 'bg-green-300' : ''} to='/'>Home</NavLink></li>
-                            <li><NavLink className={({ isActive }) => isActive ? 'bg-green-300' : ''} to='/bookings'>Bookings</NavLink></li>
-                            <li><NavLink className={({ isActive }) => isActive ? 'bg-green-300' : ''} to='/blogs'>Blogs</NavLink></li>
-                            <li><NavLink className={({ isActive }) => isActive ? 'bg-green-300' : ''} to='/contact'>Contact</NavLink></li>
+                            <li><NavLink className={({ isActive }) => isActive ? 'bg-green-300 text-white' : ''} to='/'>Home</NavLink></li>
+                            <li><NavLink className={({ isActive }) => isActive ? 'bg-green-300 text-white' : ''} to='/bookings'>Bookings</NavLink></li>
+                            <li><NavLink className={({ isActive }) => isActive ? 'bg-green-300 text-white' : ''} to='/blogs'>Blogs</NavLink></li>
+                            <li><NavLink className={({ isActive }) => isActive ? 'bg-green-300 text-white' : ''} to='/contact'>Contact</NavLink></li>
                         </ul>
                     </div>
                     <div className='flex  items-center gap-2'>
@@ -28,10 +28,10 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 space-x-3">
-                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400' : ''} to='/'>Home</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400' : ''} to='/bookings'>Bookings</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400' : ''} to='/blogs'>Blogs</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400' : ''} to='/contact'>Contact</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400 text-white' : ''} to='/'>Home</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400 text-white' : ''} to='/bookings'>Bookings</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400 text-white' : ''} to='/blogs'>Blogs</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400 text-white' : ''} to='/contact'>Contact</NavLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

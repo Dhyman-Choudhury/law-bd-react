@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 
 const Home = () => {
     return (
-        <div>
+        <div className='min-h-[calc(100vh-280px)]'>
             This is home
         </div>
     );
