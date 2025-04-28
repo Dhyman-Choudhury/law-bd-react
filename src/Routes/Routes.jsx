@@ -16,13 +16,18 @@ export const router = createBrowserRouter([
       {
         index:true,
         path:'/',
-        Component:Home
+        Component:Home,
+        hydrateFallbackElement:<span className="loading loading-spinner text-primary"></span>,
+        loader: () => fetch('../data.json')
       },
       {
         path:'/blogs',
         Component:Blogs,
         hydrateFallbackElement:<span className="loading loading-spinner text-primary"></span>,
         loader: () =>fetch('../blogs.json')
+      },
+      {
+        path:'/'
       }
      ]
   },
