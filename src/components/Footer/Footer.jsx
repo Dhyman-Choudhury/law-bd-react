@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div className="navbar-center  flex">
                     <ul className="menu menu-horizontal px-1 space-x-3">
-                        <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400 text-white' : 'bg-white text-gray-600'} to='/'>Home</NavLink></li>
+                        <li><NavLink className= {({ isActive }) => isActive ? 'bg-green-400 text-white' : 'bg-white text-gray-600'} to='/'>Home</NavLink></li>
                         <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400 text-white' : 'bg-white text-gray-600'} to='/bookings'>Bookings</NavLink></li>
                         <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400 text-white' : 'bg-white text-gray-600'} to='/blogs'>Blogs</NavLink></li>
                         <li><NavLink className={({ isActive }) => isActive ? 'bg-green-400 text-white' : 'bg-white text-gray-600'} to='/contact'>Contact</NavLink></li>
